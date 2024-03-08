@@ -1,4 +1,5 @@
 # assessment1
+[All files for Assessment 1 is in the Master Branch]
 
 SWE GCC Internship Tech Test Submission - Tong Hao Ran
 
