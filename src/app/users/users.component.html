@@ -1,0 +1,23 @@
+<h4>This page is displaying a list of users retrieve from https://jsonplaceholder.typicode.com/users via API calls </h4>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Username</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody *ngIf="authordata">
+        <tr *ngFor="let property of authordata">
+            <td>
+                {{property.name}}
+            </td>
+            <td>
+                {{property.username}}
+            </td>
+            <td>
+                {{property.email}}
+            </td>
+        </tr>
+    </tbody>
+</table>

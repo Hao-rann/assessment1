@@ -1,0 +1,16 @@
+<div class="container">
+    <h4>This page is use to submit author names!</h4>
+    <form>
+        <div class="form-group">
+            <label for="authorName">Author Name</label>
+            <input type="text" [(ngModel)]="authorName" name="authorName" id="fullName" class="form-control">
+        </div>
+        <button (click)="submit()" class="btn btn-primary form-control">Submit</button>
+        <button (click)="clear()" class="btn btn-danger form-control">Clear</button>
+    </form>
+    <br>
+    <div *ngFor="let name of submittedNames">
+        {{name}}
+    </div>
+</div>
+
