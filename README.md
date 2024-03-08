@@ -1,27 +1,19 @@
 # Assessment1App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+SWE GCC Internship Tech Test Submission - Tong Hao Ran
 
-## Development server
+Queastion 1:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Create a single-page application (SPA) named assessment1-app with framework such as React JS, Angular and so on.
 
-## Code scaffolding
+Create a form which contains a text field called “author name” and a “submit” button. It allows user to submit author name.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Display submitted author names on the page (Preferably to use components).
 
-## Build
+Retrieve a list of users from https://jsonplaceholder.typicode.com/users (Dummy API website) via API calls.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Display the retrieved list of users in Step 4.
 
-## Running unit tests
+Create a new project on GitLab/GitHub called "assessment1" and push your code to this project. Please ensure you do not commit any sensitive information such as your credentials, keys, secrets, etc.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Once you have completed the above, please share the project link with us.
